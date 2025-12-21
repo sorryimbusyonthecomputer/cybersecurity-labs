@@ -1,5 +1,5 @@
 # Attack commands
-
+```
 user@PC:~$ ssh root@server
 root@server's password: 
 Permission denied, please try again.
@@ -15,9 +15,9 @@ Permission denied, please try again.
 root@server's password: 
 root@server: Permission denied (publickey,password).
 user@PC:~$ 
-
+```
 # Attack detection log
-
+```
 {
   "@timestamp": [
     "2025-12-19T03:38:34.520Z"
@@ -375,3 +375,4 @@ user@PC:~$
   "_index": ".internal.alerts-security.alerts-default-000001",
   "_score": null
 }
+```
