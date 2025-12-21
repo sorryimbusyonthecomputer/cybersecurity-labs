@@ -17,7 +17,7 @@ root@server: Permission denied (publickey,password).
 user@PC:~$ 
 ```
 # Elasticsearch logs
-![Image of logs from Elasticsearch showing 6 failed login attempts](siem-detections/ssh-bruteforce/test-evidence/images/SSHElasticLog.png)
+![Image of logs from Elasticsearch showing 6 failed login attempts](images/SSHElasticLog.png)
 
 # Attack detection log
 ```
