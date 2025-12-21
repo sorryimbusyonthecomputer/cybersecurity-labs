@@ -16,6 +16,9 @@ root@server's password:
 root@server: Permission denied (publickey,password).
 user@PC:~$ 
 ```
+# Elasticsearch logs
+
+
 # Attack detection log
 ```
 {
