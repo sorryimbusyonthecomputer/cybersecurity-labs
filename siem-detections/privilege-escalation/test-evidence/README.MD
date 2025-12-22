@@ -16,7 +16,8 @@ visudo: /etc/sudoers.tmp unchanged
 user@server:~ $ sudo systemctl restart clamav-daemon.service
 ```
 # Elasticsearch logs
-
+# Elasticsearch logs
+![Image of logs from Elasticsearch showing sudo usage](images/PrivEscElasticLog.png)
 # Attack detection log
 ```
 {
