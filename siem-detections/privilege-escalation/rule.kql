@@ -1,0 +1,1 @@
+process.name.text: "sudo" AND user.effective.name.text : "root" AND  system.auth.sudo.command: (*chown* OR *bash* OR *sh* OR *python* OR *chmod* OR *visudo* OR *systemctl* OR /usr/sbin/*)
