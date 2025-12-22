@@ -1,4 +1,4 @@
-# PRIVILEGE ESCALATION
+# Privilege Escalation
 
 ### Hypothesis
 Unexpected use of administrative privileges by a non-admin user may indicate privilege escalation or account misuse
