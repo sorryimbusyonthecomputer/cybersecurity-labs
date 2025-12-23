@@ -9,6 +9,7 @@ Processes that are spawned by a non-admin context but run as root or are run fro
 
 
 ### Data source
+Audit logs from Auditbeat
 
 ### Detection logic
 
