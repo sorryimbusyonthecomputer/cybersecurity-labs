@@ -1,5 +1,5 @@
 # Rule for processes or scripts being run from world writeable directories, or spawned from processes unexpectedly
-```
+
 (
   process.working_directory : (/tmp* OR /var/tmp* OR /dev/shm* OR /run/user*)
 )
@@ -13,9 +13,11 @@ OR
   process.name : ("bash" OR "sh" OR "python" OR "python3" OR "perl" OR "php" OR "ruby" OR "node")
   AND process.working_directory : ("/tmp" or "/tmp/*" or "/var/tmp" or "/var/tmp/*" or "/dev/shm" or "/dev/shm/*" or "/run/user" or "/run/user/*")
 )
-```
+
+---------------------------------------------------------------------------------------------------------------------------
+
 # Rule for interpreters used as root or root used to spawn processes in world writeable directories
-```
+
 (
   user.name : "root"
   AND (
@@ -23,4 +25,3 @@ OR
     OR process.working_directory : ("/tmp" or "/tmp/*" or "/var/tmp" or "/var/tmp/*" or "/dev/shm" or "/dev/shm/*" or "/run/user" or "/run/user/*")
   )
 )
-```
